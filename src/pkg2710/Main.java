@@ -86,6 +86,7 @@ public class Main {
           The thought is that i find the point with the minimum x value on the left side and remove every point on the right side with bigger x value
           (Points are pre-sorted based on their y values).
         */
+        // The maximum value of x is known and it's 1000
         int minX = 1001;
         int i = 0;
         while (i < LeftResultsList.size()) {
